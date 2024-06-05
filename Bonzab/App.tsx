@@ -17,7 +17,7 @@ return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
     <Text>Home Screen</Text>
     <Button
-        title="Go to Water"
+        title="Go to Drink Reminder"
         onPress={() => navigation.navigate('Water')}
     />
     </View>
@@ -31,7 +31,7 @@ return (
     <NavigationContainer>
     <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="Water" component={Water} options={{ title: 'Bwar c bon' }} />
+        <Stack.Screen name="Water" component={Water} options={{ title: 'Drink Reminder' }} />
     </Stack.Navigator>
     </NavigationContainer>
 );
